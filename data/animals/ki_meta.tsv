@@ -1,0 +1,7 @@
+gt	tx	color	lty	gt_full
+WT	placebo diet	#000000	1	ki-3F4-WT
+FFI	placebo diet	#D95F02	1	ki-3F4-FFI
+CJD	placebo diet	#7570B3	1	ki-3F4-CJD
+WT	anle138b	#000000	3	ki-3F4-WT
+FFI	anle138b	#D95F02	3	ki-3F4-FFI
+CJD	anle138b	#7570B3	3	ki-3F4-CJD

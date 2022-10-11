@@ -1,0 +1,61 @@
+animal	gt	tx	group	dob	dod	days	death_status	death_comments
+13974	WT	placebo diet	WT placebo	2014-06-27	2016-06-23	727	0	planned harvest
+13975	WT	placebo diet	WT placebo	2014-06-27	2016-06-23	727	0	planned harvest
+13982	WT	placebo diet	WT placebo	2014-07-01	2016-06-23	723	0	planned harvest
+13983	WT	placebo diet	WT placebo	2014-07-01	2016-06-23	723	0	planned harvest
+13984	WT	placebo diet	WT placebo	2014-07-01	2016-06-24	724	0	planned harvest
+13985	WT	placebo diet	WT placebo	2014-07-01	2016-06-24	724	0	planned harvest
+13986	WT	placebo diet	WT placebo	2014-07-01	2016-06-24	724	0	planned harvest
+13970	WT	anle138b	WT Anle	2014-06-27	2016-06-23	727	0	planned harvest
+13867	WT	anle138b	WT Anle	2014-06-03	2016-06-23	751	0	planned harvest
+13916	WT	anle138b	WT Anle	2014-06-21	2016-06-23	733	0	planned harvest
+13917	WT	anle138b	WT Anle	2014-06-21	2016-06-23	733	0	planned harvest
+13865	WT	anle138b	WT Anle	2014-06-03	2016-03-16	652	1	fighting
+13866	WT	anle138b	WT Anle	2014-06-03	2016-03-16	652	1	fighting
+13936	CJD	placebo diet	CJD placebo	2014-06-19	2016-06-24	736	0	planned harvest
+13937	CJD	placebo diet	CJD placebo	2014-06-19	2016-06-24	736	0	planned harvest
+14031	CJD	placebo diet	CJD placebo	2014-07-04	2016-06-24	721	0	planned harvest
+14070	CJD	placebo diet	CJD placebo	2014-07-06	2016-06-24	719	0	planned harvest
+14071	CJD	placebo diet	CJD placebo	2014-07-06	2016-06-24	719	0	planned harvest
+14072	CJD	placebo diet	CJD placebo	2014-07-06	2016-06-24	719	0	planned harvest
+14021	CJD	placebo diet	CJD placebo	2014-07-04	2016-06-24	721	0	planned harvest
+14022	CJD	placebo diet	CJD placebo	2014-07-04	2016-06-24	721	0	planned harvest
+14067	CJD	anle138b	CJD Anle	2014-07-06	2016-06-24	719	0	planned harvest
+14068	CJD	anle138b	CJD Anle	2014-07-06	2016-06-24	719	0	planned harvest
+14069	CJD	anle138b	CJD Anle	2014-07-06	2016-06-24	719	0	planned harvest
+14077	CJD	anle138b	CJD Anle	2014-07-17	2016-06-24	708	0	planned harvest
+14035	CJD	anle138b	CJD Anle	2014-07-04	2016-06-24	721	0	planned harvest
+14036	CJD	anle138b	CJD Anle	2014-07-04	2016-06-24	721	0	planned harvest
+14052	FFI	placebo diet	FFI placebo	2014-07-07	2016-06-23	717	0	planned harvest
+13954	FFI	placebo diet	FFI placebo	2014-06-22	2016-06-23	732	0	planned harvest
+13955	FFI	placebo diet	FFI placebo	2014-06-22	2016-06-23	732	0	planned harvest
+14005	FFI	placebo diet	FFI placebo	2014-07-01	2016-02-19	598	1	paralysis
+14007	FFI	placebo diet	FFI placebo	2014-07-01	2016-04-26	665	0	planned harvest
+14126	FFI	placebo diet	FFI placebo	2014-07-26	2016-06-23	698	0	planned harvest
+14121	FFI	placebo diet	FFI placebo	2014-07-29	2016-06-23	695	0	planned harvest
+14123	FFI	placebo diet	FFI placebo	2014-07-29	2016-06-23	695	0	planned harvest
+14060	FFI	anle138b	FFI Anle	2014-07-10	2016-06-23	714	0	planned harvest
+14055	FFI	anle138b	FFI Anle	2014-07-07	2016-06-23	717	0	planned harvest
+14061	FFI	anle138b	FFI Anle	2014-07-10	2016-05-10	670	1	paralysis
+14054	FFI	anle138b	FFI Anle	2014-07-07	2016-02-10	583	1	paralysis
+13959	FFI	anle138b	FFI Anle	2014-06-22	2016-06-23	732	0	planned harvest
+13946	FFI	anle138b	FFI Anle	2014-06-17	2016-01-07	569	1	details unknown
+13850	WT	placebo diet	WT placebo	2014-06-17	2016-06-21	735	1	FD
+13851	WT	placebo diet	WT placebo	2014-06-17	2016-06-07	721	1	FD
+13987	WT	placebo diet	WT placebo	2014-07-01	2016-04-11	650	1	FD
+13960	WT	anle138b	WT Anle	2014-06-26	2016-06-21	726	1	FD
+14046	WT	anle138b	WT Anle	2014-07-16	2016-06-21	706	1	FD
+14049	WT	anle138b	WT Anle	2014-07-16	2016-01-11	544	1	details unknown
+13859	WT	anle138b	WT Anle	2014-06-26	2016-06-04	709	1	approximate
+13934	CJD	placebo diet	CJD placebo	2014-06-19	2014-12-08	172	1	details unknown
+13935	CJD	placebo diet	CJD placebo	2014-06-19	2016-06-24	736	0	planned harvest
+14027	CJD	anle138b	CJD Anle	2014-07-04	2014-10-28	116	1	FD
+14016	CJD	anle138b	CJD Anle	2014-07-04	2015-09-15	438	1	approximate
+14075	CJD	anle138b	CJD Anle	2014-07-11	2015-11-19	496	1	details unknown
+14076	CJD	anle138b	CJD Anle	2014-07-17	2015-10-15	455	1	paralysis
+14125	FFI	placebo diet	FFI placebo	2014-07-26	2015-10-14	445	1	FD
+14127	FFI	placebo diet	FFI placebo	2014-07-26	2014-09-16	52	1	FD
+14063	FFI	anle138b	FFI Anle	2014-07-10	2016-06-23	714	1	FD
+13947	FFI	anle138b	FFI Anle	2014-06-17	2016-02-18	611	1	FD
+13949	FFI	anle138b	FFI Anle	2014-06-17	2016-01-07	569	1	FD
+13958	FFI	anle138b	FFI Anle	2014-06-22	2016-05-10	688	1	FD

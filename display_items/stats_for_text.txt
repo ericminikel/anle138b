@@ -1,0 +1,24 @@
+Last updated: 2022-10-11
+
+RML survival anle138b vs. placebo: 346±72 vs. 168±14, an increase of 106%, P = 0.00027
+
+RML max BLI flux anle138b vs. placebo: 6308857.14285714 vs. 11501400, a difference of --45%, P = 0.015
+
+KI mice days from birth to drug diet: mean=57.7, range= 30 to 86
+
+KI survival WT vs. FFI vs. CJD: P = 0.43
+
+KI vacuole CLMM2 model: WT vs. CJD P = 1.2e-02, location coefficient = 1.2e+00, WT vs. FFI P = 6.0e-02, location coefficient = -9.5e-01
+
+KI puncta CLMM2 model: WT vs. CJD P = NaN, WT vs. FFI P = NaN
+
+KI survival anle138b vs. placebo in WT: P = 0.093
+
+KI survival anle138b vs. placebo in FFI: P = 0.23
+
+KI survival anle138b vs. placebo in CJD: P = 0.15
+
+KI survival anle138b vs. placebo overall: P = 0.11
+
+KI CLMM2 model for FFI & CJD, anle138b vs. placebo: vacuoles P = 5.0e-01, location coefficient = -2.3e-01; puncta P = 2.5e-01, location coefficient = 8.8e-01
+

@@ -1,0 +1,13 @@
+animal	inoculum	sex	diet	death_dpi	disease_status	inoculation_date	death_date	death_notes
+53038	RML	F	anle138b	287	1	2014-12-31	2015-10-14	harvested
+53039	RML	F	anle138b	327	1	2014-12-31	2015-11-23	harvested
+53040	RML	F	anle138b	267	1	2014-12-31	2015-09-24	harvested
+53042	RML	F	anle138b	327	1	2014-12-31	2015-11-23	harvested
+53045	RML	M	anle138b	323	1	2014-12-31	2015-11-19	harvested
+53046	RML	M	anle138b	453	1	2014-12-31	2016-03-28	FD
+53049	RML	F	placebo diet	156	1	2015-01-07	2015-06-12	harvested
+53051	RML	F	placebo diet	156	1	2015-01-07	2015-06-12	euthanized
+53052	RML	F	placebo diet	176	1	2015-01-07	2015-07-02	euthanized
+53054	RML	M	anle138b	441	1	2015-01-07	2016-03-23	approximate
+53211	RML	M	placebo diet	162	1	2015-02-05	2015-07-17	harvested
+53214	RML	M	placebo diet	189	1	2015-02-05	2015-08-13	euthanized

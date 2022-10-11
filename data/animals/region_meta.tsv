@@ -1,0 +1,10 @@
+region	x	short	long
+thalamus	1	Thal	thalamus
+dentate_gyrus	2	DG	dentate_gyrus
+hippocampus	3	HP	hippocampus
+lmol	4	LMOL	lacunosum_moleculare
+cortex	5	Cx	cortex
+cerebellum	6	Cb	cerebellum
+brain_stem	7	BrStem	brain_stem
+olf_glomeruli	8	OlfGlom	olfactory_glomeruli
+olf_granule_cells	9	OlfGran	olfactory_granule cells
