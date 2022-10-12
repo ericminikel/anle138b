@@ -1,4 +1,6 @@
-This repository holds the data and source code for a manuscript in preparation.
+This repository holds the data and source code for the following manuscript:
+
+[Vallabh SM, Zou D, Pitstick R, O’Moore J, Peters J, Silvius D, Kriz J, Jackson WS, Carlson GA, Minikel EV, Cabin DE. **Therapeutic trial of anle138b in mouse models of genetic prion disease.** _bioRxiv_ 2022 Oct 11;2022.10.11.511739.](https://www.biorxiv.org/content/10.1101/2022.10.11.511739v1)
 
 #### What's here
 
