@@ -503,12 +503,13 @@ cat(file=stderr(), 'done.\nCreating Figure 4...'); flush.console()
 
 
 resx=300
-png('display_items/figure-4.png', width=6.5*resx, height=6*resx, res=resx)
+png('display_items/figure-4.png', width=6.5*resx, height=7.5*resx, res=resx)
 
 layout_matrix = matrix(c(1,1,1,2,2,2,3,3,3,
                          4,4,4,5,5,5,6,6,6,
-                         7,8,9,10,11,12,13,14,15), nrow=3, byrow=T)
-layout(layout_matrix, heights=c(1,1,2))
+                         7,8,9,10,11,12,13,14,15,
+                         16,16,16,16,16,16,16,16,16), nrow=4, byrow=T)
+layout(layout_matrix, heights=c(1,1,2,1))
 par(mar=c(3,4,3,2))
 panel = 1
 
@@ -546,9 +547,15 @@ for (this_gt in c('WT','FFI','CJD')) {
 
 }
 
-ki_survdiff_overall = survdiff(Surv(days, death_status) ~ tx + gt, data=subset(ki_master, !exclude_from_curves))
-ki_surv_overall_p_value = 1-pchisq(ki_survdiff_overall$chisq,df=5)
-write(paste('KI survival anle138b vs. placebo overall: P = ',formatC(ki_surv_overall_p_value,format='fg',digits=2),'\n',sep=''),text_stats_path,append=T)
+ki_survdiff_controlling = survdiff(Surv(days, death_status) ~ tx + gt, data=subset(ki_master, !exclude_from_curves))
+ki_surv_controlling_p_value = 1-pchisq(ki_survdiff_controlling$chisq,df=5)
+write(paste('KI survival anle138b vs. placebo overall controlling for genotype: P = ',formatC(ki_surv_controlling_p_value,format='fg',digits=2),'\n',sep=''),text_stats_path,append=T)
+
+ki_survdiff_ignoring = survdiff(Surv(days, death_status) ~ tx, data=subset(ki_master, !exclude_from_curves))
+ki_surv_ignoring_p_value = 1-pchisq(ki_survdiff_ignoring$chisq,df=1)
+write(paste('KI survival anle138b vs. placebo overall ignoring genotype: P = ',formatC(ki_surv_ignoring_p_value,format='fg',digits=2),'\n',sep=''),text_stats_path,append=T)
+
+
 
 for (this_gt in c('WT','FFI','CJD')) {
   
@@ -781,6 +788,26 @@ write(paste('KI CLMM2 model for FFI & CJD, anle138b vs. placebo: vacuoles P = ',
             '; puncta P = ',formatC(tx_punc_p,format='e',digits=1),', location coefficient = ',formatC(tx_punc_est,format='e',digits=1),
             '\n',sep=''),text_stats_path,append=T)
 
+
+ki_overall_survdiff = survdiff(Surv(days, death_status) ~ tx, data=subset(ki_master, !exclude_from_curves))
+ki_overall_surv_p_value = 1-pchisq(ki_overall_survdiff$chisq,df=1)
+ki_overall_survfit = survfit(Surv(days, death_status) ~ tx, data=subset(ki_master, !exclude_from_curves))
+ki_overall_survfit$tx = gsub('tx=','',names(ki_overall_survfit$strata))
+ki_overall_survfit$color = tx_meta$color[match(ki_survfit$tx,tx_meta$tx)]
+
+par(mar=c(3,4,2,1))
+xlims = c(0,800)
+ylims = c(0,1.05)
+plot(ki_overall_survfit, xlim=xlims, ylim=ylims, xaxs='i', yaxs='i', axes=F, ann=F, col=ki_overall_survfit$color, lty=1, lwd=2)
+axis(side=1, at=0:8*100, labels=NA, cex.axis=0.8)
+axis(side=1, at=0:8*100, lwd=0, line=-0.5)
+mtext(side=1, line=1.5, text='days')
+axis(side=2, at=0:4/4, labels=percent(0:4/4), las=2, cex.axis=0.8, tck=-0.06)
+mtext(side=2, line=2.5, text='survival',cex=0.8)
+mtext(side=3, line=0, text='all genotypes', col='#000000')
+legend('bottomleft', tx_meta$tx, col=ki_overall_survfit$color, text.col=ki_overall_survfit$color, lwd=2, bty='n', cex=0.7)
+mtext(LETTERS[panel], side=3, cex=2, adj = 0.0, line = 0.5)
+panel = panel + 1
 
 unnecessary_message = dev.off()
 
