@@ -1,6 +1,6 @@
 This repository holds the data and source code for the following manuscript:
 
-[Vallabh SM, Zou D, Pitstick R, O’Moore J, Peters J, Silvius D, Kriz J, Jackson WS, Carlson GA, Minikel EV, Cabin DE. **Therapeutic trial of anle138b in mouse models of genetic prion disease.** _bioRxiv_ 2022 Oct 11;2022.10.11.511739.](https://www.biorxiv.org/content/10.1101/2022.10.11.511739v1)
+[Vallabh SM, Zou D, Pitstick R, O'Moore J, Peters J, Silvius D, Kriz J, Jackson WS, Carlson GA, Minikel EV, Cabin DE. **Therapeutic Trial of anle138b in Mouse Models of Genetic Prion Disease.** _J Virol._ 2023 Jan 18:e0167222. doi: 10.1128/jvi.01672-22. Epub ahead of print. PMID: 36651748.](https://pubmed.ncbi.nlm.nih.gov/36651748/) ([Full text](https://www.vallabhminikel.org/publications/vallabh-2023-therapeutic-trial-of-anle138b.pdf))
 
 #### What's here
 
